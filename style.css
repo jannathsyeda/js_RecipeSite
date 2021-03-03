@@ -1,5 +1,5 @@
 body{
-    background-color: orange;
+    background-color: #EDD263;
 }
 .meal-card img{
 
@@ -24,6 +24,23 @@ body{
     grid-gap: 20px;
 }
 
+#mealItemDiv img{
+
+    width:100%;
+ 
+}
+#mealItemDiv h1{
+    color:red;
+    margin-top: 100px;;
+}
+
+#mealItemDiv ul li{
+    list-style: none;
+    color:black
+}
+#mealItemDiv{
+    margin-bottom: 100px;;
+}
 @media (max-width:500px) {
     #mealDivsContainer{
         display: grid;
